@@ -3,7 +3,7 @@
 #import "UnityMgr.h"
 #include "cocos2d.h"
 //#include "platform/CCApplication.h"
-#include <cocos/base/CCScheduler.h>
+#include "cocos/base/CCScheduler.h"
 #include "cocos/scripting/js-bindings/jswrapper/SeApi.h"
 #import "AppDelegate.h"
 
