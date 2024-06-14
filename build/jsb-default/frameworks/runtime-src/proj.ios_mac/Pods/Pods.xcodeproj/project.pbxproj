@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		93D529076BA2F81743BF6033A35532F2 /* UnityAds */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAAF0731C96113EF82EC4B5E57C9FA65 /* Build configuration list for PBXAggregateTarget "UnityAds" */;
+			buildPhases = (
+				9CE6351F600D9BD83AD4EDA8ED678DF3 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = UnityAds;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		435FFC6AA62E317E6877ABA560D844D3 /* Pods-findDifferent-mobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34F6CCF530D0F354DEA6C583A7F4F6 /* Pods-findDifferent-mobile-dummy.m */; };
+		6966EC84C42FE5492163A2EDEFAD25DC /* Pods-findDifferent-mobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE581251C3ED2C90A8A9E49319CDA53 /* Pods-findDifferent-mobile-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3E3DE3DE759D1A669FC71B83E39E4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D529076BA2F81743BF6033A35532F2;
+			remoteInfo = UnityAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009C9673F7C377941030791517681FA0 /* UnityAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityAds.debug.xcconfig; sourceTree = "<group>"; };
+		0B19EF1F33FF747FD547FEB27DF9141A /* Pods-findDifferent-mobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-findDifferent-mobile.modulemap"; sourceTree = "<group>"; };
+		1ADC13153D0861274F3958FDCFA48EFE /* UnityAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = UnityAds.xcframework; sourceTree = "<group>"; };
+		2D071BE11E9CF86EC975CAFEDC54EAD3 /* Pods-findDifferent-mobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-findDifferent-mobile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4239D5E48E43C6333D0E7EF540ABA1D4 /* Pods-findDifferent-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-findDifferent-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		66BE145D5949249DAE5EF6C83FAABBA2 /* UnityAds-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "UnityAds-xcframeworks.sh"; sourceTree = "<group>"; };
+		71C382163CED1F5D0E9DE7E7BA5BBBAB /* UnityAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityAds.release.xcconfig; sourceTree = "<group>"; };
+		77E8529A4DFE4B150E6982C8E28A4AE5 /* Pods-findDifferent-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-findDifferent-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		81E9ECEE4407B2F65990685E058AFB2B /* Pods-findDifferent-mobile */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-findDifferent-mobile"; path = "libPods-findDifferent-mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1BEAC4953EB81751FF28D24B72790EE /* Pods-findDifferent-mobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-findDifferent-mobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB34F6CCF530D0F354DEA6C583A7F4F6 /* Pods-findDifferent-mobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-findDifferent-mobile-dummy.m"; sourceTree = "<group>"; };
+		FEE581251C3ED2C90A8A9E49319CDA53 /* Pods-findDifferent-mobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-findDifferent-mobile-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA6D5A9205C98B55A402E2C1743A28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B77AD471277951E4844A3321BD5FC66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BE145D5949249DAE5EF6C83FAABBA2 /* UnityAds-xcframeworks.sh */,
+				009C9673F7C377941030791517681FA0 /* UnityAds.debug.xcconfig */,
+				71C382163CED1F5D0E9DE7E7BA5BBBAB /* UnityAds.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UnityAds";
+			sourceTree = "<group>";
+		};
+		AC71EDAB263BF18B2A12243D80C612B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8ABC34CF60A90FDB31F4D8FA41453 /* UnityAds */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEBB8C7B1269B2EE0E2B07283677ECB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E9ECEE4407B2F65990685E058AFB2B /* Pods-findDifferent-mobile */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59759B6DE110761DCDEB6A29AE5816F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADC13153D0861274F3958FDCFA48EFE /* UnityAds.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				AC71EDAB263BF18B2A12243D80C612B4 /* Pods */,
+				AEBB8C7B1269B2EE0E2B07283677ECB9 /* Products */,
+				F23FC2F939D3BBF396FA8DF225575549 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4191DA33895626FEB5694550E7C33FB /* Pods-findDifferent-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				0B19EF1F33FF747FD547FEB27DF9141A /* Pods-findDifferent-mobile.modulemap */,
+				2D071BE11E9CF86EC975CAFEDC54EAD3 /* Pods-findDifferent-mobile-acknowledgements.markdown */,
+				E1BEAC4953EB81751FF28D24B72790EE /* Pods-findDifferent-mobile-acknowledgements.plist */,
+				EB34F6CCF530D0F354DEA6C583A7F4F6 /* Pods-findDifferent-mobile-dummy.m */,
+				FEE581251C3ED2C90A8A9E49319CDA53 /* Pods-findDifferent-mobile-umbrella.h */,
+				77E8529A4DFE4B150E6982C8E28A4AE5 /* Pods-findDifferent-mobile.debug.xcconfig */,
+				4239D5E48E43C6333D0E7EF540ABA1D4 /* Pods-findDifferent-mobile.release.xcconfig */,
+			);
+			name = "Pods-findDifferent-mobile";
+			path = "Target Support Files/Pods-findDifferent-mobile";
+			sourceTree = "<group>";
+		};
+		F23FC2F939D3BBF396FA8DF225575549 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4191DA33895626FEB5694550E7C33FB /* Pods-findDifferent-mobile */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9C8ABC34CF60A90FDB31F4D8FA41453 /* UnityAds */ = {
+			isa = PBXGroup;
+			children = (
+				B59759B6DE110761DCDEB6A29AE5816F /* Frameworks */,
+				4B77AD471277951E4844A3321BD5FC66 /* Support Files */,
+			);
+			name = UnityAds;
+			path = UnityAds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E46B582A6D9C66C61E62043F34434DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6966EC84C42FE5492163A2EDEFAD25DC /* Pods-findDifferent-mobile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01029983A77C5645EB5B38718BEDDC98 /* Pods-findDifferent-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779CF8CE2FD26ED804A65F0FA0DA3F92 /* Build configuration list for PBXNativeTarget "Pods-findDifferent-mobile" */;
+			buildPhases = (
+				4E46B582A6D9C66C61E62043F34434DD /* Headers */,
+				257CCF9B08074C9C72F45FF577BC8551 /* Sources */,
+				6AA6D5A9205C98B55A402E2C1743A28F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B915DFDA1B46B64E783386745428148 /* PBXTargetDependency */,
+			);
+			name = "Pods-findDifferent-mobile";
+			productName = "Pods-findDifferent-mobile";
+			productReference = 81E9ECEE4407B2F65990685E058AFB2B /* Pods-findDifferent-mobile */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AEBB8C7B1269B2EE0E2B07283677ECB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01029983A77C5645EB5B38718BEDDC98 /* Pods-findDifferent-mobile */,
+				93D529076BA2F81743BF6033A35532F2 /* UnityAds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CE6351F600D9BD83AD4EDA8ED678DF3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/UnityAds/UnityAds-xcframeworks.sh",
+				"${PODS_ROOT}/UnityAds/UnityAds.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/UnityAds/UnityAds.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/UnityAds/UnityAds-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257CCF9B08074C9C72F45FF577BC8551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435FFC6AA62E317E6877ABA560D844D3 /* Pods-findDifferent-mobile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B915DFDA1B46B64E783386745428148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnityAds;
+			target = 93D529076BA2F81743BF6033A35532F2 /* UnityAds */;
+			targetProxy = F3E3DE3DE759D1A669FC71B83E39E4D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C052DDD009AE70AF4C34B9992C5064A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E8529A4DFE4B150E6982C8E28A4AE5 /* Pods-findDifferent-mobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-findDifferent-mobile/Pods-findDifferent-mobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5532E34EEBF0824E52938A6E78399B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009C9673F7C377941030791517681FA0 /* UnityAds.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		82382F3229E4906C8612F2AC28752921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4239D5E48E43C6333D0E7EF540ABA1D4 /* Pods-findDifferent-mobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-findDifferent-mobile/Pods-findDifferent-mobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9C429D2CD667C5626F4293124BB514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C382163CED1F5D0E9DE7E7BA5BBBAB /* UnityAds.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CF8CE2FD26ED804A65F0FA0DA3F92 /* Build configuration list for PBXNativeTarget "Pods-findDifferent-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C052DDD009AE70AF4C34B9992C5064A /* Debug */,
+				82382F3229E4906C8612F2AC28752921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAF0731C96113EF82EC4B5E57C9FA65 /* Build configuration list for PBXAggregateTarget "UnityAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5532E34EEBF0824E52938A6E78399B96 /* Debug */,
+				EB9C429D2CD667C5626F4293124BB514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

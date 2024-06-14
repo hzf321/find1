@@ -1,0 +1,6 @@
+module Pods_findDifferent_mobile {
+  umbrella header "Pods-findDifferent-mobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
