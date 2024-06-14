@@ -11,7 +11,7 @@ workflows:
         bundle_identifier: com.jkvqpfdx.pksdnw
       vars:
         BUNDLE_ID: "com.jkvqpfdx.pksdnw"
-        XCODE_WORKSPACE: "findDifferent.xcworkspace"
+        XCODE_WORKSPACE: "findDifferent.xcodeproj"
         XCODE_SCHEME: "findDifferent-mobile"
         APP_STORE_APPLE_ID: 6504336292
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
@@ -30,7 +30,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --project  "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
