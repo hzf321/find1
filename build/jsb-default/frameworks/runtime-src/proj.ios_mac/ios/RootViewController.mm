@@ -11,7 +11,6 @@
  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  copies of the Software, and to permit persons to whom the Software is
  furnished to do so, subject to the following conditions:
- /Users/aw/Desktop/findDifferent1/build/jsb-default/frameworks/runtime-src/proj.ios_mac/findDifferent.xcodeproj
 
  The above copyright notice and this permission notice shall be included in
  all copies or substantial portions of the Software.
@@ -91,5 +90,6 @@ return self;
 
     // Release any cached data, images, etc that aren't in use.
 }
+
 
 @end
