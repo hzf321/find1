@@ -49,7 +49,7 @@ export const UtilsTool = {
     shuffleArray(array) {
         // 遍历数组
         for (let i = array.length - 1; i > 0; i--) {
-            // 随机生成一个 0 到 i（包含）之间的整数    
+            // 随机生成一个 0 到 i（包含）之间的整数
             const j = Math.floor(Math.random() * (i + 1));
             // 交换当前元素和随机选择的元素
             [array[i], array[j]] = [array[j], array[i]];

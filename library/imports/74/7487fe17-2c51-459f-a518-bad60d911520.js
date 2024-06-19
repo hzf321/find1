@@ -33,8 +33,8 @@ var GameDataClass = /** @class */ (function () {
         StorageUtils_1.StorageUtils.setStorageJSON(storage.gamedata, this.userData);
     };
     GameDataClass.prototype.setVideoFailCb = function (cb) {
-        onClosefailCb = null;
-        onClosefailCb = cb;
+        window['onClosefailCb'] = null;
+        window['onClosefailCb'] = cb;
     };
     //看广告
     GameDataClass.prototype.showVideo = function (finishCb) {
@@ -118,7 +118,9 @@ window['onCloseVdieofailCb'] = function () {
     //     AudioCtr.bg();
     // }
     console.log("onCloseVdieofailCbonCloseVdieofailCbonCloseVdieofailCb");
-    onClosefailCb();
+    window['onClosefailCb']();
+};
+window['onClosefailCb'] = function () {
 };
 
 cc._RF.pop();

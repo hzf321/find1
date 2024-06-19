@@ -27,6 +27,7 @@
 		286B0E98240761C500095E1A /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 288D4372225B43BE0075FBAB /* assets */; };
 		288D4373225B43BE0075FBAB /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 288D4372225B43BE0075FBAB /* assets */; };
 		294D7D7C1D0D667B002CE7B7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D7D7B1D0D667B002CE7B7 /* CoreText.framework */; };
+		390192D2C737E48B4BF3AAA5 /* libPods-findDifferent-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0903F331C7DBDA4C59504ABE /* libPods-findDifferent-mobile.a */; };
 		4033CDC020E493CF00DAA37B /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = 4033CDBF20E493CF00DAA37B /* jsb-adapter */; };
 		4033CDC120E493CF00DAA37B /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = 4033CDBF20E493CF00DAA37B /* jsb-adapter */; };
 		40CEC422212BDAB0004BCE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CEC424212BDAB0004BCE66 /* LaunchScreen.storyboard */; };
@@ -72,10 +73,11 @@
 		C03780EB18BEE0E400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03780EA18BEE0E400FE4F13 /* src */; };
 		C03780EC18BEE0E400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03780EA18BEE0E400FE4F13 /* src */; };
 		C06E23CC18CEFE680093C81A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C06E23CB18CEFE680093C81A /* main.cpp */; };
-		C203AF572C219792003006CA /* UnityMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = C203AF552C219792003006CA /* UnityMgr.mm */; };
-		C203AF5B2C2197C7003006CA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C203AF582C2197C6003006CA /* LICENSE */; };
-		C203AF5C2C2197C7003006CA /* UnityAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C203AF592C2197C6003006CA /* UnityAds.xcframework */; };
-		C203AF602C219814003006CA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C203AF5F2C219814003006CA /* File.swift */; };
+		C229891C2C218AE800639855 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229891B2C218AE800639855 /* File.swift */; };
+		C289CCB92C217F5B008088B0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C289CCB62C217F5B008088B0 /* LICENSE */; };
+		C289CCBA2C217F5B008088B0 /* UnityAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C289CCB72C217F5B008088B0 /* UnityAds.xcframework */; };
+		C2C039AE2C1AF5A000D0626A /* screenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C039AD2C1AF5A000D0626A /* screenBackground.png */; };
+		C2CC67712C18328D0096EAFD /* UnityMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2CC676F2C18328D0096EAFD /* UnityMgr.mm */; };
 		D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D454520B156E22BD00887EB5 /* libz.dylib */; };
 		D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
@@ -121,6 +123,7 @@
 		051C017821E2F92300D4A347 /* UserConfigMac.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UserConfigMac.release.xcconfig; sourceTree = "<group>"; };
 		051C017921E2F92300D4A347 /* UserConfigMac.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UserConfigMac.debug.xcconfig; sourceTree = "<group>"; };
 		05A8AD882449A98A00A65D12 /* NativeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeConfig.h; sourceTree = "<group>"; };
+		0903F331C7DBDA4C59504ABE /* libPods-findDifferent-mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-findDifferent-mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1A081B18C9DF05005C6854 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = ../../../project.json; sourceTree = "<group>"; };
 		1A37E9D3200DEEF40078AF72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1A37E9D5200DEEFB0078AF72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -165,7 +168,7 @@
 		509D4AE617EBB81800697056 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		509D4AE817EBB82000697056 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		509D4AEA17EBB82600697056 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		A922753D1517C094001B78AA /* findDifferent-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "findDifferent-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922753D1517C094001B78AA /* Beauty Unveiled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beauty Unveiled.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A92275431517C094001B78AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A92275451517C094001B78AA /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -186,11 +189,12 @@
 		C03780EA18BEE0E400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
 		C06E23CB18CEFE680093C81A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0799CB518BAE62000E9C828 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
-		C203AF552C219792003006CA /* UnityMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityMgr.mm; path = ios/UnityMgr.mm; sourceTree = "<group>"; };
-		C203AF562C219792003006CA /* UnityMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnityMgr.h; path = ios/UnityMgr.h; sourceTree = "<group>"; };
-		C203AF582C2197C6003006CA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C203AF592C2197C6003006CA /* UnityAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UnityAds.xcframework; sourceTree = "<group>"; };
-		C203AF5F2C219814003006CA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C229891B2C218AE800639855 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C289CCB62C217F5B008088B0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C289CCB72C217F5B008088B0 /* UnityAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UnityAds.xcframework; sourceTree = "<group>"; };
+		C2C039AD2C1AF5A000D0626A /* screenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenBackground.png; path = ios/screenBackground.png; sourceTree = "<group>"; };
+		C2CC676F2C18328D0096EAFD /* UnityMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityMgr.mm; path = ios/UnityMgr.mm; sourceTree = "<group>"; };
+		C2CC67702C18328D0096EAFD /* UnityMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnityMgr.h; path = ios/UnityMgr.h; sourceTree = "<group>"; };
 		D454520B156E22BD00887EB5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D4545215156E28EF00887EB5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		D4545216156E28EF00887EB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -252,7 +256,7 @@
 				D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */,
 				A92275421517C094001B78AA /* QuartzCore.framework in Frameworks */,
 				A92275441517C094001B78AA /* OpenGLES.framework in Frameworks */,
-				C203AF5C2C2197C7003006CA /* UnityAds.xcframework in Frameworks */,
+				C289CCBA2C217F5B008088B0 /* UnityAds.xcframework in Frameworks */,
 				A92275461517C094001B78AA /* OpenAL.framework in Frameworks */,
 				A92275481517C094001B78AA /* AudioToolbox.framework in Frameworks */,
 				A922754A1517C094001B78AA /* AVFoundation.framework in Frameworks */,
@@ -260,6 +264,7 @@
 				A922754E1517C094001B78AA /* Foundation.framework in Frameworks */,
 				A92275501517C094001B78AA /* CoreGraphics.framework in Frameworks */,
 				ED6D5265263544C8003A20DD /* CoreVideo.framework in Frameworks */,
+				390192D2C737E48B4BF3AAA5 /* libPods-findDifferent-mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +318,7 @@
 		A92275321517C094001B78AA = {
 			isa = PBXGroup;
 			children = (
-				C203AF5F2C219814003006CA /* File.swift */,
+				C229891B2C218AE800639855 /* File.swift */,
 				288D4372225B43BE0075FBAB /* assets */,
 				1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */,
 				D4545214156E28EF00887EB5 /* Classes */,
@@ -328,7 +333,7 @@
 		A922753E1517C094001B78AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A922753D1517C094001B78AA /* findDifferent-mobile.app */,
+				A922753D1517C094001B78AA /* Beauty Unveiled.app */,
 				509D4AAA17EBB24E00697056 /* findDifferent-desktop.app */,
 			);
 			name = Products;
@@ -337,7 +342,7 @@
 		A92275401517C094001B78AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C203AF5A2C2197C6003006CA /* UnityAds */,
+				C289CCB82C217F5B008088B0 /* UnityAds */,
 				467AF60F232881BA00770112 /* CoreMedia.framework */,
 				467AF60D232881B100770112 /* AVKit.framework */,
 				467AF6042321FBD400770112 /* WebKit.framework */,
@@ -379,15 +384,16 @@
 				A922754D1517C094001B78AA /* Foundation.framework */,
 				A922754F1517C094001B78AA /* CoreGraphics.framework */,
 				ED6D5264263544C8003A20DD /* CoreVideo.framework */,
+				0903F331C7DBDA4C59504ABE /* libPods-findDifferent-mobile.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C203AF5A2C2197C6003006CA /* UnityAds */ = {
+		C289CCB82C217F5B008088B0 /* UnityAds */ = {
 			isa = PBXGroup;
 			children = (
-				C203AF582C2197C6003006CA /* LICENSE */,
-				C203AF592C2197C6003006CA /* UnityAds.xcframework */,
+				C289CCB62C217F5B008088B0 /* LICENSE */,
+				C289CCB72C217F5B008088B0 /* UnityAds.xcframework */,
 			);
 			path = UnityAds;
 			sourceTree = "<group>";
@@ -395,8 +401,9 @@
 		D45446CC156DE73F00887EB5 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				C203AF562C219792003006CA /* UnityMgr.h */,
-				C203AF552C219792003006CA /* UnityMgr.mm */,
+				C2C039AD2C1AF5A000D0626A /* screenBackground.png */,
+				C2CC67702C18328D0096EAFD /* UnityMgr.h */,
+				C2CC676F2C18328D0096EAFD /* UnityMgr.mm */,
 				051C017421E2F91200D4A347 /* UserConfigIOS.debug.xcconfig */,
 				051C017521E2F91200D4A347 /* UserConfigIOS.release.xcconfig */,
 				22CC756321BA527F00FBF2F7 /* service */,
@@ -453,6 +460,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A92277001517C097001B78AA /* Build configuration list for PBXNativeTarget "findDifferent-mobile" */;
 			buildPhases = (
+				BF12F715F815A9D01B5C38D8 /* [CP] Check Pods Manifest.lock */,
 				A92275391517C094001B78AA /* Sources */,
 				A922753A1517C094001B78AA /* Frameworks */,
 				A922753B1517C094001B78AA /* Resources */,
@@ -464,7 +472,7 @@
 			);
 			name = "findDifferent-mobile";
 			productName = findDifferent;
-			productReference = A922753D1517C094001B78AA /* findDifferent-mobile.app */;
+			productReference = A922753D1517C094001B78AA /* Beauty Unveiled.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -544,10 +552,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				288D4373225B43BE0075FBAB /* assets in Resources */,
+				C2C039AE2C1AF5A000D0626A /* screenBackground.png in Resources */,
 				4033CDC020E493CF00DAA37B /* jsb-adapter in Resources */,
 				1AFFCD871F7A5DCF00628F2C /* LaunchScreenBackground.png in Resources */,
 				1AE159EC18C9DF3600FCA372 /* project.json in Resources */,
-				C203AF5B2C2197C7003006CA /* LICENSE in Resources */,
+				C289CCB92C217F5B008088B0 /* LICENSE in Resources */,
 				1AD7E0A818C9DB93004817A6 /* main.js in Resources */,
 				40CEC429212BDB03004BCE66 /* Localizable.strings in Resources */,
 				1AFFCD851F7A5DCF00628F2C /* Images.xcassets in Resources */,
@@ -557,6 +566,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF12F715F815A9D01B5C38D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-findDifferent-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		509D4A8017EBB24E00697056 /* Sources */ = {
@@ -573,12 +607,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C203AF572C219792003006CA /* UnityMgr.mm in Sources */,
+				C2CC67712C18328D0096EAFD /* UnityMgr.mm in Sources */,
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				22CC756521BA528000FBF2F7 /* SDKWrapper.m in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
-				C203AF602C219814003006CA /* File.swift in Sources */,
+				C229891C2C218AE800639855 /* File.swift in Sources */,
 				4D3EB2581F8F4A6C007DA644 /* jsb_module_register.cpp in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
 			);
@@ -624,7 +658,6 @@
 /* Begin XCBuildConfiguration section */
 		509D4AA817EBB24E00697056 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051C017921E2F92300D4A347 /* UserConfigMac.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -655,7 +688,6 @@
 		};
 		509D4AA917EBB24E00697056 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051C017821E2F92300D4A347 /* UserConfigMac.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -703,7 +735,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/usr/lib/swift,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -745,7 +780,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/usr/lib/swift,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -774,13 +812,14 @@
 		};
 		A92277011517C097001B78AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051C017421E2F91200D4A347 /* UserConfigIOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TARRH9WM5L;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -792,15 +831,28 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beauty Unveiled";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x/external/ios/libs";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/usr/lib/swift,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../cocos2d-x/external/ios/libs",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ovkbwserdy.ttfgf123;
+				PRODUCT_NAME = "Beauty Unveiled";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -813,19 +865,22 @@
 					"$(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual",
 					"$(SRCROOT)/../../cocos2d-x/external/ios/include",
 					"$(SRCROOT)/../../cocos2d-x/external/ios/include/spidermonkey",
+					"${SRCROOT}/**",
+					"${PODS_ROOT}/**",
 				);
 			};
 			name = Debug;
 		};
 		A92277021517C097001B78AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051C017521E2F91200D4A347 /* UserConfigIOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TARRH9WM5L;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -836,15 +891,28 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beauty Unveiled";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x/external/ios/libs";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/usr/lib/swift,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../cocos2d-x/external/ios/libs",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ovkbwserdy.ttfgf123;
+				PRODUCT_NAME = "Beauty Unveiled";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				SWIFT_VERSION = 5.0;
@@ -856,6 +924,8 @@
 					"$(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual",
 					"$(SRCROOT)/../../cocos2d-x/external/ios/include",
 					"$(SRCROOT)/../../cocos2d-x/external/ios/include/spidermonkey",
+					"${SRCROOT}/**",
+					"${PODS_ROOT}/**",
 				);
 			};
 			name = Release;
