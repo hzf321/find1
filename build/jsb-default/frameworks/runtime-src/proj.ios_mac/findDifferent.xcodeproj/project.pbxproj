@@ -851,7 +851,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ovkbwserdy.ttfgf123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
 				PRODUCT_NAME = "Beauty Unveiled";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
@@ -911,7 +911,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ovkbwserdy.ttfgf123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
 				PRODUCT_NAME = "Beauty Unveiled";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
