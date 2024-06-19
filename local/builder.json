@@ -2,7 +2,7 @@
   "platform": "ios",
   "actualPlatform": "ios",
   "template": "default",
-  "buildPath": "./build2",
+  "buildPath": "./build3",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
