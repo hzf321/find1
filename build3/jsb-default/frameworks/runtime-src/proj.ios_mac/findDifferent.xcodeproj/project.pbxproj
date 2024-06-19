@@ -721,7 +721,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dfvjf.ijsiov123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -754,7 +754,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dfvjf.ijsiov123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
